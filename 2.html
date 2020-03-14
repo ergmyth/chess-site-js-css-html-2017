@@ -1,0 +1,54 @@
+<html>
+<head> <title>Шахматная школа</title>
+<style>
+h2 {font-family:"Monotype Corsiva";
+	font-size:60pt;
+	color:white;
+	text-align:center;
+	text-indent:10pt;}
+input {
+border-radius: 5px; /* Уголки */
+}
+img {
+border-radius: 25px; /* Уголки */
+}
+.ssi{
+text-decoration: none;
+}
+
+</style>
+<script src="Контент/scr.js">
+	
+	</script>
+</head>
+<body bgcolor=#21528C>
+<form name="f1">
+<table width=100%>
+<tr><td width=10% valign=bot>
+<a href="3.html" target=Work ><img src="Контент/160x85_ХАРА.gif" width=185 height=85></a>
+</td><td valign=top align=center width=70%>
+<a href="3.html" target=Work class=ssi><h2><b>Шахматная школа</b></h2></a>
+</td>
+<td>
+<input type="button" name="but" value="Вход" onClick="{location = self.location}"
+style="
+background: #21528C; 
+color: white;
+font-weight:bolder;
+font-family:arial;
+">
+<input type="button" name="but" value="Регистрация" onClick="op()"
+style="
+background: #21528C; 
+font-weight:bolder;
+color: white;
+font-family:sans-serif;
+">
+
+<br>
+<input type="text" value="Логин или Email" name="logg" onClick="{log();}"><br>
+<input type="text" value="Пароль" name=ps onclick="{log1();}"><br><br>
+
+</td></tr></table></form>
+</body>
+</html>

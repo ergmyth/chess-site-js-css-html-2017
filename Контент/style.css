@@ -1,0 +1,57 @@
+A:link { 
+    color: pink; /* ÷вет непосещенных ссылок */
+   }
+   A:visited { 
+    color: white; /* ÷вет посещенных ссылок */
+   }
+   A:hover { 
+    color: red; /* ÷вет ссылок при наведении на них курсора мыши */
+   }
+   A:active { 
+    color: orange; /* ÷вет активных ссылок */
+   }
+img {
+border-radius: 50px; /* ”голки */
+}
+input {
+border-radius: 5px; /* ”голки */
+}
+textarea {
+border-radius: 5px; /* ”голки */
+}
+select {
+border-radius: 5px; /* ”голки */
+}
+INPUT:hover { 
+    color: #fa11fa;
+   }
+LI:hover {
+    color: #fa11fa;
+   }
+h22{
+font-family:tahoma;
+	font-size:12pt;
+	
+	color:white;
+	text-align:center;
+	
+	text-indent:10pt;
+}
+h2 {font-family:Verdana;
+	font-size:12pt;
+	color:dimgray;
+	text-align:center;
+	font-weight:bolder;
+	text-indent:10pt;}
+h1 {font-family:Verdana;
+	font-size:12pt;
+	color:white;
+	text-align:center;
+	font-weight:bolder;
+	text-indent:10pt;}
+b1 {font-family:Verdana;
+	font-size:11pt;
+	color:white;
+	font-weight:bolder;
+	
+	text-indent:10pt;}
